@@ -56,7 +56,7 @@ class bookLogic
 
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         $this->error_message = "Error logging in - Name and email";
-                        $userID = $_POST['uerid'] ?? '';
+                        $userID = $_POST['userid'] ?? '';
                         $password = $_POST['password'] ?? '';
 
 
