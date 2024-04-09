@@ -32,7 +32,7 @@ class bookLogic
                                 $this->loginLogic();
                                 break;
 
-S
+
 
                         case '/signup':
                                 $this->signupLogic();
