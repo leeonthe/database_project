@@ -4,7 +4,7 @@ class Config
 {
         public static $db = [
 
-                "username" => "5432",
+                "username" => "kkc4me",
                 "password" => "Spring2024",
                 "host" => "localhost",
                 "database" => "book"
