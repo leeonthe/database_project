@@ -1,5 +1,5 @@
 <?php
-require_once 'Config.php';
+require_once 'connect-db.php';
 
 
 class Database

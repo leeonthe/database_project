@@ -23,9 +23,9 @@ class bookLogic
                 switch ($this->uri) {
                         case '/':
                                 if ($this->isLoggedIn()) {
-                                        $this->servePage('index.html');
+                                        $this->servePage('index.php');
                                 } else {
-                                        $this->servePage('index.html');
+                                        $this->servePage('index.php');
                                 }
                                 break;
                         case '/login':
@@ -44,6 +44,11 @@ class bookLogic
                                 break;
                 }
         }
+
+        private function servePage($page){
+                include $page;
+        }
+
         private function isLoggedIn()
         {
                 return isset($_SESSION['user']);
