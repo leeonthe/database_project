@@ -1,6 +1,6 @@
 <?php
 require_once 'connect-db.php';
-
+require_once 'Database.php';
 
 class Database
 {
